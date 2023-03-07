@@ -1,0 +1,17 @@
+.navbar-container {
+  background-color: #222831;
+}
+
+.link {
+  text-decoration: none;
+  color: #eeeeee;
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: bisque;
+  text-decoration: underline;
+}

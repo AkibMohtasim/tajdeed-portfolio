@@ -1,0 +1,17 @@
+.home-container {
+  background-color: #222831;
+  height: 100vh;
+}
+
+.name-text {
+  font-family: "Poppins";
+  color: #eeeeee;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 96px;
+}
+
+.name-text > span {
+  color: #00adb5;
+}
