@@ -13,7 +13,7 @@ const Projects = () => {
 
   return (
     <div className="projects container-fluid">
-      <h2 className="text-center">this is the projects section</h2>
+      <h2 className="text-center">Here are some notable projects</h2>
 
       {projects.map((project) => (
         <Project key={project.id} project={project}></Project>

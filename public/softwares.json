@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Designing Softwares",
+    "softwares": [
+      {
+        "s_id": 1,
+        "name": "AutoCAD",
+        "image": "https://i.ibb.co/DV5vFJs/1-autocad.png",
+        "abilities": []
+      },
+      {
+        "s_id": 2,
+        "name": "Adobe Illustrator",
+        "image": "https://i.ibb.co/xztSqpL/2-illustrator.png",
+        "abilities": []
+      },
+      {
+        "s_id": 3,
+        "name": "SketchUP",
+        "image": "https://i.ibb.co/P9XSc7P/3-Sketch-Up-Horizontal-RGB.png",
+        "abilities": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Analytic & Simulation Softwares",
+    "softwares": [
+      {
+        "s_id": 4,
+        "name": "ETABS",
+        "image": "https://i.ibb.co/J59cW0Y/4-etabs.png",
+        "abilities": []
+      },
+      {
+        "s_id": 5,
+        "name": "Plaxis 2D",
+        "image": "https://i.ibb.co/gvdQ5Z0/5-plaxis-2-D.png",
+        "abilities": []
+      },
+      {
+        "s_id": 6,
+        "name": "SWMM",
+        "image": "https://i.ibb.co/FJbL0f5/6-swmm.png",
+        "abilities": []
+      },
+      {
+        "s_id": 7,
+        "name": "PTV Vissim",
+        "image": "https://i.ibb.co/L885MvR/7-PTV-Group-farbig-positiv-coated-CMYK.png",
+        "abilities": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Photo Editing Softwares",
+    "softwares": [
+      {
+        "s_id": 8,
+        "name": "Adobe Premiere Pro",
+        "image": "https://i.ibb.co/hBw6t1K/8-premiere-pro.png",
+        "abilities": []
+      },
+      {
+        "s_id": 9,
+        "name": "Adobe Lightroom",
+        "image": "https://i.ibb.co/PYQ3JCD/9-lightroom.png",
+        "abilities": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Microsoft 365",
+    "softwares": [
+      {
+        "s_id": 10,
+        "name": "MS Word, MS PowerPoint, MS Excel",
+        "image": "https://i.ibb.co/z5yJfQx/10-Microsoft-Office-logo-2019-present.png",
+        "abilities": []
+      }
+    ]
+  }
+]

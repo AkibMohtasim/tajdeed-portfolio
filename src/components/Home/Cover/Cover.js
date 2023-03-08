@@ -12,11 +12,11 @@ const Cover = () => {
       <div>
         <button>
           <a
-            href="https://drive.google.com/file/d/1xJkXrk1tD_6dPkX781xNAHLQbe-zjaps/view?usp=sharing"
+            href="https://drive.google.com/file/d/1m_h-tXu37Alfl8FA4stZnbGiWMd9X1HY/view?usp=share_link"
             target="_blank"
             rel="noreferrer"
           >
-            Download CV and Icon
+            Download CV
           </a>
         </button>
         <button>
