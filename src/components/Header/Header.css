@@ -1,18 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@400&display=swap");
+
 .navbar-container {
   background-color: #222831;
+  border-bottom: 0.1em #eeeeee47 solid;
 }
 
 .link {
   text-decoration: none;
+  position: relative;
   color: #eeeeee;
-  font-family: "Poppins";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 27px;
-  font-weight: 400;
   margin-left: 1rem;
+  border: 1px solid transparent;
+  border-radius: 5%;
+  padding: 0.5em;
 }
 
+.link:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: #00adb5;
+  transition: width 0.3s linear;
+}
+
+.link:hover:before {
+  width: 100%;
+}
+
+/* new */
+
 .link:hover {
-  color: bisque;
-  text-decoration: underline;
+  color: #00adb5;
+  transition: color 0.3s linear;
 }
