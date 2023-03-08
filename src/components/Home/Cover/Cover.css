@@ -1,6 +1,6 @@
-.home-container {
-  background-color: #222831;
+.cover-container {
   height: 100vh;
+  padding: 15% 10%;
 }
 
 .name-text {
@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 96px;
+  /* line-height: 96px; */
 }
 
 .name-text > span {

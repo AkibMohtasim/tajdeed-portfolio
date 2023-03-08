@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Main from "./layout/Main";
 import Home from "./components/Home/Home";
-import Education from "./components/Education/Education";
+// import Education from "./components/Education/Education";
 import Jobexp from "./components/Jobexp/Jobexp";
 import Projects from "./components/Projects/Projects";
 import Softwares from "./components/Softwares/Softwares";
@@ -16,7 +16,7 @@ function App() {
       children: [
         { path: "/", element: <Home></Home> },
         { path: "home", element: <Home></Home> },
-        { path: "education", element: <Education></Education> },
+        // { path: "education", element: <Education></Education> },
         { path: "job-experience", element: <Jobexp></Jobexp> },
         { path: "projects", element: <Projects></Projects> },
         { path: "softwares", element: <Softwares></Softwares> },
