@@ -1,4 +1,17 @@
 .academics {
+  position: relative;
   color: #eeeeee;
-  padding: 15% 10%;
+  padding: 5% 10%;
+}
+
+.title {
+  border-bottom: 2px solid #00adb5;
+  padding-bottom: 10px;
+  margin-bottom: 55px;
+  display: inline;
+}
+
+img {
+  max-height: 80px;
+  margin-right: 50px;
 }

@@ -3,9 +3,12 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-container">
-      <div>
-        <h2>About Me</h2>
+    <div className="about-container d-flex flex-row flex-wrap">
+      <section className="border about-me">
+
+        {/* about me section  */}
+
+        <h1 style={{ marginBottom: '25px' }}>About <span style={{ color: '#00adb5' }}>Me</span></h1>
         <p>
           As a recent Civil and Environmental Engineering graduate, I have
           gained valuable experience working as a geotechnical and project
@@ -19,11 +22,37 @@ const About = () => {
           of interests has helped me to develop a well-rounded perspective,
           which I believe is an asset in the engineering field. I am committed
           to using my skills and experience to contribute to meaningful projects
-          that make a positive impact on society. Thank you for taking the time
+          that make a positive impact on society.
+        </p>
+        <p>
+          Thank you for taking the time
           to learn a little about me. I am excited about the opportunity to
           connect with others and to explore new challenges and opportunities in
           my career.
         </p>
+      </section>
+
+      {/* image section  */}
+
+      <div className="image-section border">
+        <div class="container text-center">
+          <div class="row row-cols-auto">
+            <div class="col border">
+              img1
+            </div>
+            <div class="col border">
+              img2
+            </div>
+          </div>
+          <div class="row row-cols-auto">
+            <div class="col border">
+              img3
+            </div>
+            <div class="col border">
+              img4
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

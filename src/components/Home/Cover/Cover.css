@@ -1,14 +1,14 @@
 .cover-container {
+  position: relative;
   height: 75vh;
   padding: 0 10%;
   width: 100%;
   overflow-x: hidden;
-  position: relative;
 }
 
 
 .name-text {
-  margin-top: 15%;
+  /* margin-top: 15%; */
   position: relative;
   display: inline-block;
   font-family: "Poppins";
@@ -71,6 +71,7 @@
 .cover-buttons {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   /* padding: 10px 0px; */
   margin-top: 20px;
@@ -96,7 +97,11 @@
 
 
 .scroll-button {
-  margin: 18% auto 0% auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+
 }
 
 .scroll-button>button {

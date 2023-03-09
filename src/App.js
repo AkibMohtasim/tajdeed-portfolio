@@ -28,6 +28,9 @@ function App() {
   return (
     <div>
       <RouterProvider router={router}></RouterProvider>
+      <div>
+        <h2 className="text-light">this is the footer section</h2>
+      </div>
     </div>
   );
 }
