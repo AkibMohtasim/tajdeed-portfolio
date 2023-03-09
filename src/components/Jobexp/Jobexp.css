@@ -1,4 +1,51 @@
 .company-section {
   color: #eeeeee;
-  padding: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.art-section {
+  width: 30%;
+}
+
+.job-exp {
+  width: 65%;
+}
+
+.company-logo {
+  height: 70px;
+  margin-right: 80px;
+}
+
+ul>li {
+  text-align: justify;
+  list-style: circle;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  .company-section {
+    color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .art-section {
+    width: 80%;
+  }
+
+  ul>li {
+    text-align: left;
+  }
+
+  .job-exp {
+    width: 100%;
+  }
+
 }

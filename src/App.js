@@ -29,7 +29,9 @@ function App() {
     <div>
       <RouterProvider router={router}></RouterProvider>
       <div>
-        <h2 className="text-light">this is the footer section</h2>
+        <h2 className="text-light">
+          website under construction.
+        </h2>
       </div>
     </div>
   );

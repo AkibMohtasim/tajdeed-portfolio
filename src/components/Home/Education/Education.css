@@ -11,7 +11,31 @@
   display: inline;
 }
 
-img {
-  max-height: 80px;
-  margin-right: 50px;
+.institutions {
+  display: flex;
+  flex-direction: column;
+}
+
+.inst-single {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 7%;
+}
+
+.inst-image {
+  text-align: center;
+  width: 30%;
+}
+
+.inst-image>img {
+  height: 80px;
+  width: auto;
+}
+
+@media only screen and (max-width: 576px) {
+  .inst-image {
+    width: auto;
+  }
 }

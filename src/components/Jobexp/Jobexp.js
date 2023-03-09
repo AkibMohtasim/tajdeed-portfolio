@@ -3,10 +3,10 @@ import "./Jobexp.css";
 
 const Jobexp = () => {
   return (
-    <div className="company-section border d-flex">
+    <div className="company-section py-5 px-3 align-items- justify-content-center">
 
       {/* svg icon  */}
-      <div style={{ width: '35%' }}>
+      <div className="art-section">
         <svg className="w-100%" viewBox="0 0 364 364" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M230.27 270.534C224.343 276.361 224.25 276.841 232.117 279.432C235.312 280.484 239.438 280.077 241.873 278.198C246.907 274.313 242.006 269.461 237.502 267.057C235.876 266.189 231.206 264.996 231.206 267.506C231.206 271.634 233.301 270.238 230.738 267.17" stroke="#00ADB5" stroke-linecap="round" stroke-linejoin="round" />
           <path d="M241.689 297.008C242.786 294.925 243.771 293.151 245.353 291.802C245.613 291.581 246.07 291.626 246.262 291.299C246.643 290.653 247.226 289.713 247.273 288.791C247.46 285.16 251.2 286.581 252.852 285.07C254.423 283.633 255.923 282.16 257.533 280.751C259.308 279.199 260.008 277.668 261.295 275.483C262.477 273.476 263.61 271.434 264.899 269.568C265.953 268.041 267.785 266.826 268.286 264.704C268.852 262.308 270.836 259.832 273.086 260.744C273.858 261.058 279.99 266.444 275.991 262.984" stroke="#00ADB5" stroke-linecap="round" stroke-linejoin="round" />
@@ -188,30 +188,35 @@ const Jobexp = () => {
         </svg>
       </div>
 
-      <section style={{ width: '60%' }}
-        className="d-flex flex-wrap justify-content-center border">
+
+      {/* job exp section */}
+
+      <section className="job-exp d-flex flex-wrap">
+
+        <div className="mb-5">
+          <h2 style={{ borderBottom: '1px solid #00adb5', paddingBottom: '5px', display: 'inline-block' }} >SMART DEVELOPMENT ENGINEERING (SDE) LTD.</h2>
+          <h5 className="mt-2 fw-light">Sister Concern of Environment and Infrastructure Management Solution (EIMS) Limited.</h5>
+        </div>
+        <div className="d-flex flex-wrap mb-5">
+          <img className="company-logo" src="https://sdelbd.com/images/sdel%20Logo.gif" alt="" />
+          <img className="company-logo" src="https://www.eimslbd.com/images/eimsLogo4.png" alt="" />
+
+        </div>
+
 
         <div>
-          <h2>image</h2>
-          <h2>image</h2>
+          <h4 style={{ fontSize: '1.5em', borderBottom: '1px dashed rgba(255, 255, 255, 0.7)', fontWeight: '400', padding: '2px' }}>
+            Job Title : Junior Geotechnical Engineer</h4>
+          <p>{'(May 2022 - Present)'}</p>
         </div>
 
         <div>
-          <h2>
-            SMART DEVELOPMENT ENGINEERING (SDE) LTD. Sister Concern of
-            Environment and Infrastructure Management Solution (EIMS) Limited
-            Job Title : Junior Geotechnical Engineer May 2022- November 2022
-          </h2>
-        </div>
-
-        <div>
-          <h3>Responsibilites</h3>
-
+          <h3 style={{ color: '#00adb5', margin: '15px 0px' }}>Responsibilites</h3>
 
           <ul>
             <li>
               Supervised field test (SPT, SCPT, and CPT) and laboratory index tests,
-              Consolidation Test, Unconfined Compression Test, Direct Shear Test
+              Consolidation Test, Unconfined Compression Test, Direct Shear Test.
             </li>
             <li>
               Performed analysis on the soil test and prepared geotechnical
@@ -236,6 +241,7 @@ const Jobexp = () => {
               sector.
             </li>
           </ul>
+
         </div>
       </section>
 

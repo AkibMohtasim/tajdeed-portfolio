@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about-container d-flex flex-row flex-wrap">
-      <section className="border about-me">
+      <section className="about-me">
 
         {/* about me section  */}
 
