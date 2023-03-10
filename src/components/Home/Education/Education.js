@@ -23,7 +23,7 @@ const Education = () => {
             <h2>Islamic University of Technology (IUT)</h2>
             <h5>BSc in Civil and Environmental Engineering</h5>
             <p>2018-2022</p>
-            <p>CGPA: 3.17/4.00</p>
+            <p>CGPA: 3.16/4.00</p>
           </div>
         </div>
 

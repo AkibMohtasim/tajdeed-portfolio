@@ -7,19 +7,48 @@
         "s_id": 1,
         "name": "AutoCAD",
         "image": "https://i.ibb.co/DV5vFJs/1-autocad.png",
-        "abilities": []
+        "abilities": [
+          "Can create 2D drawings such as floor plans, elevations, or sections with precision and accuracy.",
+          "Apply standard annotation techniques, including text, dimensions, and hatching, to communicate design intent effectively.",
+          "Modify existing drawings using a variety of editing tools and techniques to make revisions and updates to designs."
+        ]
       },
       {
         "s_id": 2,
         "name": "Adobe Illustrator",
         "image": "https://i.ibb.co/xztSqpL/2-illustrator.png",
-        "abilities": []
+        "abilities": [
+          "Can create logos and branding materials.",
+          "Design illustrations and graphics.",
+          "Design user interfaces (UI) for website and mobile apps."
+        ]
       },
       {
         "s_id": 3,
+        "name": "Adobe XD",
+        "image": "https://i.ibb.co/nnvPF1g/adobeXD.png",
+        "abilities": [
+          "Can create vector-based design tools to create graphics and icons for UI."
+        ]
+      },
+      {
+        "s_id": 4,
         "name": "SketchUP",
         "image": "https://i.ibb.co/P9XSc7P/3-Sketch-Up-Horizontal-RGB.png",
-        "abilities": []
+        "abilities": [
+          "Can create 3D models of objects, buildings, and landscapes.",
+          "Import and export 3D models, creating animations, and generating 2D drawings.",
+          "Enhancing designs and speeding up the modeling process using pre-built 3D models, textures, and materials."
+        ]
+      },
+      {
+        "s_id": 5,
+        "name": "ASDIP Foundation",
+        "image": "https://i.ibb.co/MfLCbCR/ASDIP-logo.png",
+        "abilities": [
+          "Can determine appropriate foundation types, such as a spread footing, combined footing, or pile foundation based on soil parameters and loads",
+          "Design the foundation to meet the required strength and serviceability criteria."
+        ]
       }
     ]
   },
@@ -28,46 +57,73 @@
     "title": "Analytic & Simulation Softwares",
     "softwares": [
       {
-        "s_id": 4,
+        "s_id": 6,
         "name": "ETABS",
         "image": "https://i.ibb.co/J59cW0Y/4-etabs.png",
-        "abilities": []
-      },
-      {
-        "s_id": 5,
-        "name": "Plaxis 2D",
-        "image": "https://i.ibb.co/gvdQ5Z0/5-plaxis-2-D.png",
-        "abilities": []
-      },
-      {
-        "s_id": 6,
-        "name": "SWMM",
-        "image": "https://i.ibb.co/FJbL0f5/6-swmm.png",
-        "abilities": []
+        "abilities": [
+          "RCC & steel Structural analysis & design.",
+          "RCC & steel Retrofit analysis & design."
+        ]
       },
       {
         "s_id": 7,
+        "name": "Plaxis 2D",
+        "image": "https://i.ibb.co/gvdQ5Z0/5-plaxis-2-D.png",
+        "abilities": [
+          "Can define models, and boundary conditions to analyze and determine the system's response to stress, strains, and displacements.",
+          "Design piles and foundations.",
+          "Investigate and solve geotechnical problems such as slope stability, settlement, or liquefaction."
+        ]
+      },
+      {
+        "s_id": 8,
+        "name": "SWMM",
+        "image": "https://i.ibb.co/FJbL0f5/6-swmm.png",
+        "abilities": [
+          "Can create models by defining the layout & geometry of the system including pipes, channels, and storage facilities.",
+          "Simulate storm events and analyzing the behavior of the system."
+        ]
+      },
+      {
+        "s_id": 9,
         "name": "PTV Vissim",
         "image": "https://i.ibb.co/L885MvR/7-PTV-Group-farbig-positiv-coated-CMYK.png",
-        "abilities": []
+        "abilities": [
+          "Can create a traffic network and defining traffic demand.",
+          "Simulate and optimize traffic flow."
+        ]
       }
     ]
   },
   {
     "id": 3,
-    "title": "Photo Editing Softwares",
+    "title": "Video and Photo Editing Softwares",
     "softwares": [
       {
-        "s_id": 8,
+        "s_id": 10,
         "name": "Adobe Premiere Pro",
         "image": "https://i.ibb.co/hBw6t1K/8-premiere-pro.png",
-        "abilities": []
+        "abilities": [
+          "Cinematography and travel video contents.",
+          "Use color grading, audio mixing, and special effects to enhance the overall quality and impact of videos."
+        ]
       },
       {
-        "s_id": 9,
+        "s_id": 11,
+        "name": "Adobe Photoshop",
+        "image": "https://i.ibb.co/HrqkrjF/photoshop-appicon.png",
+        "abilities": [
+          "Can edit photos using advanced layer masks, and smart objects.",
+          "Color correction and color grading."
+        ]
+      },
+      {
+        "s_id": 12,
         "name": "Adobe Lightroom",
         "image": "https://i.ibb.co/PYQ3JCD/9-lightroom.png",
-        "abilities": []
+        "abilities": [
+          "Enhancing photos for print, web, or for social media."
+        ]
       }
     ]
   },
@@ -76,10 +132,13 @@
     "title": "Microsoft 365",
     "softwares": [
       {
-        "s_id": 10,
+        "s_id": 13,
         "name": "MS Word, MS PowerPoint, MS Excel",
         "image": "https://i.ibb.co/z5yJfQx/10-Microsoft-Office-logo-2019-present.png",
-        "abilities": []
+        "abilities": [
+          "Can create documents, spreadsheets, and presentations.",
+          "Use advanced features, such as macros and automation."
+        ]
       }
     ]
   }

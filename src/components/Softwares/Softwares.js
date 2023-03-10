@@ -11,7 +11,7 @@ const Softwares = () => {
       .then((data) => setSoftwares(data));
   }, []);
   return (
-    <div className="my-5">
+    <div className="py-5 d-flex justify-content-center flex-wrap">
       {softwares.map((software) => (
         <Software key={software.id} software={software}></Software>
       ))}
