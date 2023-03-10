@@ -1,5 +1,7 @@
 import React from "react";
 import "./Jobexp.css";
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid'
+
 
 const Jobexp = () => {
   return (
@@ -205,8 +207,8 @@ const Jobexp = () => {
 
 
         <div>
-          <h4 style={{ fontSize: '1.5em', borderBottom: '1px dashed rgba(255, 255, 255, 0.7)', fontWeight: '400', padding: '2px' }}>
-            Job Title : Junior Geotechnical Engineer</h4>
+          <h4 style={{ fontSize: '1.5em', borderBottom: '1px dashed #00adb5', fontWeight: '500', padding: '2px' }}>
+            Job Title: Junior Geotechnical Engineer</h4>
           <p>{'(May 2022 - Present)'}</p>
         </div>
 
@@ -241,6 +243,25 @@ const Jobexp = () => {
               sector.
             </li>
           </ul>
+
+          <div className="cover-buttons">
+            <a
+              href="https://sdelbd.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              About SDE <ArrowTopRightOnSquareIcon style={{ height: '19px', fontWeight: 'bolder' }} />
+            </a>
+
+            {" "}
+            <a
+              href="https://www.eimslbd.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              About EIMS <ArrowTopRightOnSquareIcon style={{ height: '19px', fontWeight: 'bolder' }} />
+            </a>
+          </div>
 
         </div>
       </section>
