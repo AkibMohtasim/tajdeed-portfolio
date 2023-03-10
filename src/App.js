@@ -7,6 +7,7 @@ import Jobexp from "./components/Jobexp/Jobexp";
 import Projects from "./components/Projects/Projects";
 import Softwares from "./components/Softwares/Softwares";
 import Activities from "./components/Activities/Activities";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const router = createBrowserRouter([
@@ -28,11 +29,7 @@ function App() {
   return (
     <div>
       <RouterProvider router={router}></RouterProvider>
-      <div>
-        <h2 className="text-light">
-          website under construction.
-        </h2>
-      </div>
+      <Footer></Footer>
     </div>
   );
 }

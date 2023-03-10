@@ -1,8 +1,11 @@
 import React from "react";
 import "./Software.css";
+import { ArrowLongUpIcon } from '@heroicons/react/24/solid';
+import { scrollToTop } from '../Project/Project';
 
 const Software = ({ software }) => {
   const { title, softwares } = software;
+
   return (
     <div className="software-container">
       <h1 style={{ display: 'inline-block' }}>{title}</h1>
@@ -21,6 +24,7 @@ const Software = ({ software }) => {
           </div>
         </section>
       ))}
+      <button className="scroll-button" onClick={scrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
     </div>
   );
 };

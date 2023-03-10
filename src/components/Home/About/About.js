@@ -36,20 +36,20 @@ const About = () => {
       {/* image section  */}
 
       <div className="image-section">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
+        <div className="container text-center">
+          <div className="row">
+            <div className="col">
               <iframe src="https://drive.google.com/file/d/1JkthGAe_FpznNN2Eg0dKxi-tdXmYSL7L/preview" title="graduation picture" allow="autoplay"></iframe>
             </div>
-            <div class="col">
+            <div className="col">
               <iframe src="https://drive.google.com/file/d/1jTLK7ak_lbWAvxoYxtuqWVMr1W8Q-QIB/preview" title="football" allow="autoplay"></iframe>
             </div>
           </div>
-          <div class="row">
-            <div class="col">
+          <div className="row">
+            <div className="col">
               <iframe src="https://drive.google.com/file/d/1ESexnBbmGDurodtvRGSdCjJecgeaYAc_/preview" title="Ibn Batuta" allow="autoplay"></iframe>
             </div>
-            <div class="col">
+            <div className="col">
               <iframe src="https://drive.google.com/file/d/1NFPHc6N4wxuYrSUbIpjT6Qq8sH7_dWHa/preview" title="GMB Akash" allow="autoplay"></iframe>
             </div>
           </div>

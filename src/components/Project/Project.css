@@ -2,6 +2,37 @@
   color: #eeeeee;
 }
 
-.img {
-  max-width: 25vw;
+.project-img {
+  width: 30%;
+}
+
+.description {
+  text-align: justify;
+}
+
+.report-link {
+  text-decoration: none;
+
+}
+
+.to-top-btn {
+  position: absolute;
+  bottom: 0;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-img {
+    width: 90%;
+  }
+
+  .project-img>img {
+    width: 100%;
+  }
+
 }

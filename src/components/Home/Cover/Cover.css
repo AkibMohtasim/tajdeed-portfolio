@@ -1,6 +1,6 @@
 .cover-container {
   position: relative;
-  height: 75vh;
+  min-height: 75vh;
   padding: 0 10%;
   width: 100%;
   overflow-x: hidden;
@@ -8,7 +8,6 @@
 
 
 .name-text {
-  /* margin-top: 15%; */
   position: relative;
   display: inline-block;
   font-family: "Poppins";
@@ -18,13 +17,15 @@
   font-size: 2rem;
 }
 
+.name-text>span {
+  color: #00adb5;
+}
 
 /* name text animation starts */
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .name-text>span {
-    color: #00adb5;
     position: absolute;
     top: 0;
     transform: translateX(0.4em);
@@ -95,31 +96,44 @@
   transition: background-color 0.5s;
 }
 
-
 .scroll-button {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
-
-}
-
-.scroll-button>button {
   border: none;
-  width: 96px;
-  height: 96px;
+  width: 70px;
+  height: 70px;
   background-color: rgba(57, 62, 70, 0.75);
 }
 
-.scroll-button>button:hover {
+.scroll-button:hover {
   border-radius: 10px;
-  background-color: rgba(57, 62, 70);
+  background-color: rgb(59, 64, 72);
   transition-property: background-color, border-radius;
   transition-duration: 0.3s;
   transition-timing-function: linear;
 }
 
+/* doodle  */
+
+.cover-doodle {
+  width: 75%;
+}
+
 /* responsive design */
+
+@media only screen and (max-width: 992px) {
+  .name-text {
+    font-size: 2rem;
+  }
+
+  .cover-doodle {
+    width: 75%;
+    margin: 15% 0;
+  }
+
+}
 
 @media only screen and (max-width: 768px) {
   .name-text {
@@ -128,18 +142,21 @@
 
   .name-text>span {
     position: relative;
-    color: #00adb5;
   }
 
   .cover-buttons>a {
     display: inline-block;
   }
 
+  .cover-doodle {
+    margin: 0 0 15% 0;
+  }
+
   .scroll-button>button {
     margin-top: 100px;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: rgba(57, 62, 70, 0.75);
   }
 }

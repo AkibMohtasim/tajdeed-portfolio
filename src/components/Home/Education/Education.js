@@ -1,6 +1,8 @@
 import React from "react";
 import "./Education.css";
-import { AcademicCapIcon } from '@heroicons/react/24/solid'
+import { AcademicCapIcon, ArrowLongUpIcon } from '@heroicons/react/24/solid';
+import { scrollToTop } from "../../Project/Project";
+
 
 const Education = () => {
   return (
@@ -57,6 +59,8 @@ const Education = () => {
           </div>
         </div>
       </section>
+
+      <button className="scroll-button" onClick={scrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
 
     </div>
   );

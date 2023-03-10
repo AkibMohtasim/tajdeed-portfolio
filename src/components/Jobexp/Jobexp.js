@@ -1,6 +1,6 @@
 import React from "react";
 import "./Jobexp.css";
-import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid'
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
 
 
 const Jobexp = () => {
