@@ -5,7 +5,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
 
 const Jobexp = () => {
   return (
-    <div className="company-section py-5 px-3 align-items- justify-content-center">
+    <div className="company-section py-5 px-3 justify-content-center">
 
       {/* svg icon  */}
       <div className="art-section">
@@ -222,9 +222,9 @@ const Jobexp = () => {
             </li>
             <li>
               Performed analysis on the soil test and prepared geotechnical investigation report based on the laboratory test data for various projects -
-              <ol>
+              <ol className="o-list">
                 <li>Geotechnical Investigation for UNICEF under GAVI HSS-3 Programme.</li>
-                <li>Geotechnical Investigation for Gandharbpur Water Treatment Snc. for SUEZ International and OTV-Veolia</li>
+                <li>Geotechnical Investigation for Gandharbpur Water Treatment Snc. for SUEZ International and OTV-Veolia.</li>
                 <li>Subsoil Investigation for the construction of Proposed Production Facility for Singer Bangladesh Limited and more.</li>
                 <li>Consultancy services for Topographic survey, Morphology-Hydrology study,
                   Geotechnical Investigation, Design and Quality Supervision of two jetties, Anwar Group of Industries.

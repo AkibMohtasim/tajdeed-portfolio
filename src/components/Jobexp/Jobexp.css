@@ -22,6 +22,11 @@ ul>li {
   list-style: circle;
 }
 
+.o-list {
+  margin: 5px 0;
+  width: 50%;
+}
+
 
 @media only screen and (max-width: 576px) {
 
@@ -42,6 +47,10 @@ ul>li {
 
   ul>li {
     text-align: left;
+  }
+
+  .o-list {
+    width: 90%;
   }
 
   .job-exp {
