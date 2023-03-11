@@ -1,7 +1,5 @@
 import React from "react";
 import "./Software.css";
-import { ArrowLongUpIcon } from '@heroicons/react/24/solid';
-import { scrollToTop } from '../Project/Project';
 
 const Software = ({ software }) => {
   const { title, softwares } = software;
@@ -24,7 +22,6 @@ const Software = ({ software }) => {
           </div>
         </section>
       ))}
-      <button className="scroll-button" onClick={scrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaInstagram, FaEnvelope, FaFacebookF } from "react-icons/fa";
+import { FaInstagram, FaEnvelope, FaFacebookF, FaFacebookSquare } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
 
         <a href="https://www.instagram.com/taj_deed_bnw" target='_blank' rel="noreferrer"><FaInstagram style={{ height: '2rem', width: '2rem' }} /></a>
 
-        <a href="https://www.facebook.com/fatir.mohammad.1" target='_blank' rel="noreferrer"><FaFacebookF style={{ height: '2rem', width: '2rem' }} /></a>
+        <a href="https://www.facebook.com/fatir.mohammad.1" target='_blank' rel="noreferrer"><FaFacebookSquare style={{ height: '2rem', width: '2rem' }} /></a>
       </div>
       <div className='text-center'>
         <p className='text-decoration-underline'>cee.omorseebtaien.ms@gmail.com</p>

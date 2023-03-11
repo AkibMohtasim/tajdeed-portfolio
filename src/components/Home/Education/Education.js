@@ -1,10 +1,11 @@
 import React from "react";
 import "./Education.css";
 import { AcademicCapIcon, ArrowLongUpIcon } from '@heroicons/react/24/solid';
-import { scrollToTop } from "../../Project/Project";
+import { scrollToTop } from "../../Projects/Projects";
 
 
 const Education = () => {
+
   return (
     <div className="d-flex flex-column academics">
 
@@ -26,6 +27,28 @@ const Education = () => {
             <h5>BSc in Civil and Environmental Engineering</h5>
             <p>2018-2022</p>
             <p>CGPA: 3.16/4.00</p>
+            <iframe title="iut transcript" src="https://drive.google.com/file/d/184brorEsX3fF1apGljjAk4lSvQHXAJrj/preview" width="300" height="225"></iframe>
+
+            {/* 
+            <div className="cover-buttons">
+              <a
+                href="https://sdelbd.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                About SDE <ArrowTopRightOnSquareIcon style={{ height: '19px', fontWeight: 'bolder' }} />
+              </a>
+
+              {" "}
+              <a
+                href="https://www.eimslbd.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                About EIMS <ArrowTopRightOnSquareIcon style={{ height: '19px', fontWeight: 'bolder' }} />
+              </a>
+            </div> */}
+
           </div>
         </div>
 

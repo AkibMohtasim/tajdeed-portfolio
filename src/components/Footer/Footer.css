@@ -7,9 +7,13 @@
 .footer>div>a {
   text-decoration: none;
   color: #eeeeee;
-  background-color: #393E46;
+  background-color: #222831;
   padding: 10px;
   margin: 10px;
   border-radius: 50%;
-  /* align-self: self-start; */
+}
+
+.footer>div>a:hover {
+  background-color: #393E46;
+  transition: background-color 0.5s;
 }

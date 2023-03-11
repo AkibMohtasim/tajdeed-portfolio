@@ -1,13 +1,6 @@
 import React from "react";
 import "./Project.css";
-import { ArrowTopRightOnSquareIcon, ArrowLongUpIcon } from '@heroicons/react/24/solid';
-
-export const scrollToTop = () => {
-  window.scrollTo({
-    top: '0',
-    behavior: 'smooth'
-  })
-};
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
 
 const Project = ({ project }) => {
 
@@ -27,7 +20,7 @@ const Project = ({ project }) => {
       {/* text items and report */}
 
       <div className="mx-2 mx-md-5">
-        <h2 style={{ fontWeight: '400', marginBottom: '25px', paddingBottom: '5px', borderBottom: '2px groove #00adb5' }}>{name}</h2>
+        <h3 style={{ fontWeight: '400', marginBottom: '25px', paddingBottom: '5px', borderBottom: '2px groove #00adb5' }}>{name}</h3>
         <p className="description">{desrciption}</p>
         <p className="description">{responsibility}</p>
         <div className="cover-buttons">
@@ -39,8 +32,6 @@ const Project = ({ project }) => {
             })}
         </div>
       </div>
-
-      <button className="scroll-button" onClick={scrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
     </div>
   );
 };

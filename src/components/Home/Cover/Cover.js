@@ -1,5 +1,6 @@
 import "./Cover.css";
 import { ArrowDownTrayIcon, ArrowLongDownIcon } from '@heroicons/react/24/solid';
+import { FaLinkedin } from "react-icons/fa";
 
 const Cover = () => {
   const scrollDown = () => {
@@ -25,7 +26,7 @@ const Cover = () => {
 
         <div className="cover-buttons">
           <a
-            href="https://drive.google.com/file/d/1m_h-tXu37Alfl8FA4stZnbGiWMd9X1HY/view?usp=share_link"
+            href="https://drive.google.com/file/d/1QJlg9a_Tyw15SgQICmsecGnBn4oIh9gH/view"
             target="_blank"
             rel="noreferrer"
           >
@@ -38,7 +39,7 @@ const Cover = () => {
             target="_blank"
             rel="noreferrer"
           >
-            LinkedIn
+            <FaLinkedin style={{ height: '19px', fontWeight: 'bolder' }}></FaLinkedin>
 
           </a>
         </div>

@@ -213,35 +213,36 @@ const Jobexp = () => {
         </div>
 
         <div>
-          <h3 style={{ color: '#00adb5', margin: '15px 0px' }}>Responsibilites</h3>
-
+          <h3 style={{ color: '#00adb5', margin: '15px 0px' }}>Responsibilities</h3>
+          <h5 style={{ textDecoration: 'underline' }}>Geotechnical</h5>
           <ul>
             <li>
               Supervised field test (SPT, SCPT, and CPT) and laboratory index tests,
               Consolidation Test, Unconfined Compression Test, Direct Shear Test.
             </li>
             <li>
-              Performed analysis on the soil test and prepared geotechnical
-              investigation report based on the laboratory test data for various
-              projects naming Geotechnical Investigation for UNICEF under GAVI HSS-3
-              Programme, Geotechnical Investigation for Gandharbpur Water Treatment
-              Snc. for SUEZ International and OTV-Veolia, Subsoil Investigation for
-              the construction of Proposed Production Facility for Singer Bangladesh
-              Limited and more.
+              Performed analysis on the soil test and prepared geotechnical investigation report based on the laboratory test data for various projects -
+              <ol>
+                <li>Geotechnical Investigation for UNICEF under GAVI HSS-3 Programme.</li>
+                <li>Geotechnical Investigation for Gandharbpur Water Treatment Snc. for SUEZ International and OTV-Veolia</li>
+                <li>Subsoil Investigation for the construction of Proposed Production Facility for Singer Bangladesh Limited and more.</li>
+                <li>Consultancy services for Topographic survey, Morphology-Hydrology study,
+                  Geotechnical Investigation, Design and Quality Supervision of two jetties, Anwar Group of Industries.
+                </li>
+                <li>Subsoil investigation for palmal group of industries.</li>
+              </ol>
             </li>
             <li>
-              Organized training and lectures for the technical staffs in the
-              geotechnical laboratory.
+              Quality control assurance, maintaining site management and expenses, monitoring investigation progress.
             </li>
-            <li>
-              Conducted field investigations in order to perform Detailed
-              Engineering Assessment for various industries.
-            </li>
-            <li>Preparation of Feasibility Study report for various projects.</li>
-            <li>
-              Performed Liquefaction analysis for various existing structures of RMG
-              sector.
-            </li>
+          </ul>
+
+          <h4 style={{ textDecoration: 'underline' }}>Structural</h4>
+          <ul>
+            <li>RCC & steel Structural analysis & design.</li>
+            <li>RCC & steel Retrofit analysis & design.</li>
+            <li>Preparing Detailed Engineering Assessment (DEA) reports.</li>
+            <li>Preliminary assessment of various factory buildings.</li>
           </ul>
 
           <div className="cover-buttons">

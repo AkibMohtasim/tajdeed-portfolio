@@ -3,3 +3,8 @@
   color: #eeeeee;
   padding: 3% 7%;
 }
+
+ul>li>span {
+  font-weight: 600;
+  border-bottom: 1px groove white;
+}
