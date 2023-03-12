@@ -25,4 +25,8 @@
   .image-section {
     width: 100%;
   }
+
+  .image-section iframe {
+    margin-bottom: 15px;
+  }
 }

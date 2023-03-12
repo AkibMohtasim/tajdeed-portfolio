@@ -39,7 +39,7 @@ const Cover = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedin style={{ height: '19px', fontWeight: 'bolder' }}></FaLinkedin>
+            LinkedIn
 
           </a>
         </div>
