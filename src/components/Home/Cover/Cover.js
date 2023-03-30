@@ -1,6 +1,6 @@
 import "./Cover.css";
 import { ArrowDownTrayIcon, ArrowLongDownIcon } from '@heroicons/react/24/solid';
-import { FaLinkedin } from "react-icons/fa";
+import useTitle from "../../../hooks/useTitle";
 
 const Cover = () => {
   const scrollDown = () => {
@@ -9,6 +9,8 @@ const Cover = () => {
       behavior: 'smooth'
     })
   }
+
+  useTitle('Omor Seebtaien Tajdeed');
 
   return (
     <div className="d-flex flex-wrap container-fluid cover-container justify-content-around">

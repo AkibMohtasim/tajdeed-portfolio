@@ -1,9 +1,13 @@
 import React from "react";
 import "./Jobexp.css";
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
+import useTitle from "../../hooks/useTitle";
 
 
 const Jobexp = () => {
+
+  useTitle('Job Experience');
+
   return (
     <div className="company-section py-5 px-3 justify-content-center">
 

@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import './Activities.css';
 import { ArrowLongUpIcon } from '@heroicons/react/24/solid';
-import { scrollToTop } from "../Projects/Projects";
+import useTitle from '../../hooks/useTitle';
+import useScrollToTop from '../../hooks/useScrollToTop';
 
 const Activities = () => {
 
@@ -12,8 +13,10 @@ const Activities = () => {
     fetch("activities.json")
       .then(res => res.json())
       .then(data => setActivities(data))
-  }
-    , [])
+  }, []);
+
+
+  useTitle('Activities');
 
   return (
     <div className='activites-section d-flex flex-column align-items-center position-relative'>
@@ -24,7 +27,7 @@ const Activities = () => {
         ></Activity>)
       }
 
-      <button className="scroll-button" onClick={scrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
+      <button className="scroll-button" onClick={useScrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
     </div>
   );
 };

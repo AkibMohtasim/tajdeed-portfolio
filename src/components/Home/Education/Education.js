@@ -1,7 +1,7 @@
 import React from "react";
 import "./Education.css";
 import { AcademicCapIcon, ArrowLongUpIcon } from '@heroicons/react/24/solid';
-import { scrollToTop } from "../../Projects/Projects";
+import useScrollToTop from "../../../hooks/useScrollToTop";
 
 
 const Education = () => {
@@ -83,7 +83,7 @@ const Education = () => {
         </div>
       </section>
 
-      <button className="scroll-button" onClick={scrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
+      <button className="scroll-button" onClick={useScrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
 
     </div>
   );

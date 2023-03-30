@@ -2,16 +2,13 @@ import React, { useEffect, useState } from "react";
 import Project from "../Project/Project";
 import "./Projects.css";
 import { ArrowLongUpIcon } from '@heroicons/react/24/solid';
-
-export const scrollToTop = () => {
-  window.scrollTo({
-    top: '0',
-    behavior: 'smooth'
-  })
-};
+import useTitle from "../../hooks/useTitle";
+import useScrollToTop from "../../hooks/useScrollToTop";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
+
+  useTitle('Industrial Projects');
 
   useEffect(() => {
     fetch("projects.json")
@@ -50,7 +47,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <button className="scroll-button" onClick={scrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
+      <button className="scroll-button" onClick={useScrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
     </div>
   );
 };
