@@ -28,7 +28,7 @@ const Cover = () => {
 
         <div className="cover-buttons">
           <a
-            href="https://drive.google.com/file/d/1QJlg9a_Tyw15SgQICmsecGnBn4oIh9gH/view"
+            href="https://drive.google.com/file/d/1PcTu8zgpJW_VelEJ6llOt5aBKEHf52xy/view"
             target="_blank"
             rel="noreferrer"
           >
