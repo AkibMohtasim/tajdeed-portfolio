@@ -25,9 +25,9 @@ const Project = ({ project }) => {
         <p className="description">{responsibility}</p>
         <div className="cover-buttons">
           {
-            reports.map((report) => {
-              return <a className="report-link" href={report} target="_blank" rel="noreferrer">
-                Report {reports.indexOf(report) + 1} <ArrowTopRightOnSquareIcon style={{ height: '19px', fontWeight: 'bolder' }} />
+            reports.map((report, i) => {
+              return <a key={i} className="report-link" href={report} target="_blank" rel="noreferrer">
+                Report {(reports?.length > 1) && reports.indexOf(report) + 1} <ArrowTopRightOnSquareIcon style={{ height: '19px', fontWeight: 'bolder' }} />
               </a>
             })}
         </div>
