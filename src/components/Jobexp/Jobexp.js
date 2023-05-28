@@ -36,7 +36,7 @@ const Jobexp = () => {
         <div>
           <h4 style={{ fontSize: '1.5em', borderBottom: '1px dashed #00adb5', fontWeight: '500', padding: '2px' }}>
             Job Title: Junior Geotechnical Engineer</h4>
-          <p>{'(May 2022 - Present)'}</p>
+          <p>{'(May 2022 - May 2023)'}</p>
         </div>
 
         <div>
