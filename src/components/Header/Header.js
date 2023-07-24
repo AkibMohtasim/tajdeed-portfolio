@@ -16,9 +16,9 @@ const navigation = [
 
 const Header = () => {
   return (
-    <div>
-      <Navbar className="navbar-container" expand="lg">
-        <Container className="m-0 p-2">
+    <div className="navbar-container">
+      <Navbar expand="lg">
+        <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>

@@ -1,19 +1,32 @@
 .about-container {
-  /* position: relative; */
   height: auto;
   color: #eeeeee;
-  margin: 15% 2%;
 }
 
 .about-me {
   font-family: "Poppins", sans-serif;
-  width: 50%;
   text-align: justify;
-  padding: 2%;
+}
+
+.about-me-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
 }
 
 .image-section {
-  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.image-section>div {
+  background-color: #202021;
+}
+
+.image-section iframe {
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -22,8 +35,17 @@
     width: 100%;
   }
 
+  .about-me-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .image-section {
     width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .image-section>div {
+    margin: auto;
   }
 
   .image-section iframe {
