@@ -19,7 +19,7 @@ const Cover = () => {
   useTitle('Omor Seebtaien Tajdeed');
 
   return (
-    <div className="container cover-container mb-60">
+    <div className="container px-4 cover-container mb-60">
 
       {/* left section */}
 
@@ -39,7 +39,7 @@ const Cover = () => {
       {/* doodle section  */}
 
       <div className="cover-doodle" data-aos="fade-down" data-aos-offset="200" data-aos-duration="2000">
-        <img className="cover-doodle-img" src={coverDoodle} alt="" srcset="" />
+        <img className="cover-doodle-img" src={coverDoodle} alt="" />
       </div>
       {/* scroll down button section */}
 

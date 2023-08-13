@@ -12,7 +12,7 @@ const Activity = ({ activity }) => {
       </div>
 
       {/* image section  */}
-      <div className='d-flex flex-wrap justify-content-center img-div'>
+      <div className='flex flex-wrap justify-center img-div'>
         {images.map(img => <iframe key={img.title} src={img.link} title={img.title} width="300" height="225"></iframe>)}
       </div>
     </div>

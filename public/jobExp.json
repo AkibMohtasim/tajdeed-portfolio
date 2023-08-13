@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "companyName": "ACE Consultants Limited",
+    "companyDetails": "Subsidiary of SMEC International Pty Ltd.",
+    "companyLogos": [
+      "https://sdelbd.com/images/sdel%20Logo.gif",
+      "https://www.eimslbd.com/images/eimsLogo4.png"
+    ],
+    "designation": "Junior Engineer - Survey",
+    "jobPeriod": "August 2023 - Present",
+    "companyLinks": [
+      {
+        "companyName1": "SDE",
+        "companyLink": "https://sdelbd.com/"
+      },
+      {
+        "companyName1": "EIMS",
+        "companyLink": "https://www.eimslbd.com/"
+      }
+    ],
+    "responsibilities": [
+      {
+        "id": 1,
+        "mainResponsibility": "Supervising and managing survey teams, ensuring accurate data collection & progress updates for various surveys."
+      },
+      {
+        "id": 2,
+        "mainResponsibility": "Assisting senior engineers in conducting reconnaissance surveys, site visit, and maintaining survey control points."
+      },
+      {
+        "id": 3,
+        "mainResponsibility": "Maintaining accurate survey records, performing quality control checks, and collaborating with the project team to align surveying activities with project requirements and timelines."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "companyName": "MTS Engineering and Construction",
+    "companyDetails": "Regional branch of Midstream & Terminal Services LLC",
+    "companyLogos": [
+      "https://sdelbd.com/images/sdel%20Logo.gif",
+      "https://www.eimslbd.com/images/eimsLogo4.png"
+    ],
+    "designation": "Junior Drainage Design Engineer",
+    "jobPeriod": "June 2023 - July 2023",
+    "companyLinks": [
+      {
+        "companyName1": "SDE",
+        "companyLink": "https://sdelbd.com/"
+      },
+      {
+        "companyName1": "EIMS",
+        "companyLink": "https://www.eimslbd.com/"
+      }
+    ],
+    "responsibilities": [
+      {
+        "id": 1,
+        "mainResponsibility": " Assisted senior team members in surface water management plans, floodplain analysis, drainage strategy, drainage impact assessments."
+      },
+      {
+        "id": 2,
+        "mainResponsibility": "Worked with senior team members in developing drainage solutions for highways and infrastructures."
+      },
+      {
+        "id": 3,
+        "mainResponsibility": " Designed SuDS (swales, detention ponds) according to relevant standard and guidelines."
+      },
+      {
+        "id": 4,
+        "mainResponsibility": "Reviewed drawings for competence and compliance with client requirements."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "companyName": "SMART DEVELOPMENT ENGINEERING (SDE) LTD.",
+    "companyDetails": "Sister Concern of Environment and Infrastructure Management Solution (EIMS) Limited.",
+    "companyLogos": [
+      "https://sdelbd.com/images/sdel%20Logo.gif",
+      "https://www.eimslbd.com/images/eimsLogo4.png"
+    ],
+    "designation": "Junior Geotechnical Engineer",
+    "jobPeriod": "May 2022 - May 2023",
+    "companyLinks": [
+      {
+        "companyName1": "SDE",
+        "companyLink": "https://sdelbd.com/"
+      },
+      {
+        "companyName1": "EIMS",
+        "companyLink": "https://www.eimslbd.com/"
+      }
+    ],
+    "responsibilities": [
+      {
+        "id": 1,
+        "mainResponsibility": "Supervised field test (SPT, SCPT, and CPT) and laboratory index tests, Consolidation Test, Unconfined Compression Test, Direct Shear Test."
+      },
+      {
+        "id": 2,
+        "mainResponsibility": "Performed analysis on the soil test and prepared geotechnical investigation report based on the laboratory test data for various projects.",
+        "subresponsibilities": [
+          "Geotechnical Investigation for UNICEF under GAVI HSS-3 Programme.",
+          "Geotechnical Investigation for Gandharbpur Water Treatment Snc. for SUEZ International and OTV-Veolia.",
+          "Subsoil Investigation for the construction of Proposed Production Facility for Singer Bangladesh Limited and more.",
+          "Consultancy services for Topographic survey, Morphology-Hydrology study, Geotechnical Investigation, Design and Quality Supervision of two jetties, Anwar Group of Industries.",
+          "Subsoil investigation for palmal group of industries."
+        ]
+      },
+      {
+        "id": 3,
+        "mainResponsibility": "Quality control assurance, maintaining site management and expenses, monitoring investigation progress."
+      },
+      {
+        "id": 4,
+        "mainResponsibility": "RCC & steel Structural analysis & design."
+      },
+      {
+        "id": 5,
+        "mainResponsibility": "RCC & steel Retrofit analysis & design."
+      },
+      {
+        "id": 6,
+        "mainResponsibility": "Preparing Detailed Engineering Assessment (DEA) reports."
+      },
+      {
+        "id": 7,
+        "mainResponsibility": "Preliminary assessment of various factory buildings."
+      }
+    ]
+  }
+]

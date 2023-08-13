@@ -10,6 +10,15 @@
   z-index: 10;
 }
 
+.navbar-container>nav,
+.navbar-container a {
+  background-color: #222831;
+}
+
+.navbar-container ul li {
+  list-style-type: none;
+}
+
 .link {
   text-decoration: none;
   position: relative;

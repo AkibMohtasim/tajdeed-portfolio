@@ -5,8 +5,8 @@ import { FaInstagram, FaEnvelope, FaFacebookF, FaFacebookSquare } from "react-ic
 
 const Footer = () => {
   return (
-    <div className='footer d-flex flex-column align-items-center'>
-      <div className='d-flex justify-content-center align-items-center py-2'>
+    <div className='footer flex flex-col align-items-center'>
+      <div className='flex justify-center align-items-center py-2'>
         <a href="mailto:cee.omorseebtaien.ms@gmail.com" target='_blank' rel="noreferrer"><FaEnvelope style={{ height: '2rem', width: '2rem' }} /></a>
 
         <a href="https://www.instagram.com/taj_deed_bnw" target='_blank' rel="noreferrer"><FaInstagram style={{ height: '2rem', width: '2rem' }} /></a>

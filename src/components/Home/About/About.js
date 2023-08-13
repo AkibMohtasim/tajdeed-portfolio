@@ -3,8 +3,8 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="container about-container mb-60">
-      <h1 style={{ marginBottom: '25px', fontWeight: '700' }}>About <span style={{ color: '#00adb5' }}>Me</span></h1>
+    <div className="container px-4 about-container mb-60">
+      <h2 style={{ marginBottom: '25px', fontWeight: '700' }}>About <span style={{ color: '#00adb5' }}>Me</span></h2>
 
       <div className="about-me-wrapper">
         <section className="about-me" data-aos="fade-right">

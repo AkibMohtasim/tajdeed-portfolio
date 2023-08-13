@@ -6,9 +6,9 @@ const Software = ({ software }) => {
 
   return (
     <div className="software-container">
-      <h1 style={{ display: 'inline-block' }}>{title}</h1>
+      <h2 style={{ display: 'inline-block' }}>{title}</h2>
       {softwares.map((s) => (
-        <section key={s.id} className="mb-5 d-flex flex-column">
+        <section key={s.id} className="mb-5 flex flex-col">
           <div className="sw-image mb-2">
             <img className="h-100" src={s.image} alt="" />
           </div>

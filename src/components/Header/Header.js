@@ -1,13 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import "./Header.css";
+import { Navbar } from 'flowbite-react';
 
 const navigation = [
   { name: "Home", link: "/home" },
-  // { name: "EDUCATION", link: "/education" },
   { name: "Job Experience", link: "/job-experience" },
   { name: "Industrial Projects", link: "/projects" },
   { name: "Software Skills", link: "/softwares" },
@@ -17,19 +14,17 @@ const navigation = [
 const Header = () => {
   return (
     <div className="navbar-container">
-      <Navbar expand="lg">
-        <Container>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav>
-              {navigation.map((item) => (
-                <Link key={item.name} className="link" to={item.link}>
-                  {item.name}
-                </Link>
-              ))}
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
+      <Navbar fluid>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-center">
+          {navigation.map((item, index) => (
+            <Navbar.Link active>
+              <Link key={index} className="link" to={item.link}>
+                {item.name}
+              </Link>
+            </Navbar.Link>
+          ))}
+        </Navbar.Collapse>
       </Navbar>
     </div>
   );

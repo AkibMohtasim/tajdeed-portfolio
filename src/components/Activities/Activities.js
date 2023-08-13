@@ -19,7 +19,7 @@ const Activities = () => {
   useTitle('Activities');
 
   return (
-    <div className='activites-section d-flex flex-column align-items-center position-relative'>
+    <div className='activites-section flex flex-col align-items-center position-relative'>
       {
         activities.map(activity => <Activity
           key={activity.id}

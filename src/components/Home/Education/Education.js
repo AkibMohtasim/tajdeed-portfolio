@@ -11,9 +11,9 @@ AOS.init();
 const Education = () => {
 
   return (
-    <div className="container d-flex flex-column academics mb-60">
+    <div className="container px-4 flex flex-col academics mb-60">
 
-      <h1 className="d-flex align-items-center title">Education History <AcademicCapIcon style={{ height: '4rem', color: '#00adb5', marginLeft: '0.3em' }} /></h1>
+      <h2 className="flex items-center title">Education History <AcademicCapIcon style={{ height: '4rem', color: '#00adb5', marginLeft: '0.3em' }} /></h2>
 
 
       {/*-------------- Education history starts -------------------  */}
@@ -21,7 +21,7 @@ const Education = () => {
       <section className="institutions w-full">
 
         {/* IUT  */}
-        <div className="inst-single" data-aos="fade-right">
+        <div className="inst-single" data-aos="fade-up-right">
           <div className="inst-image">
             <img src="https://www.iutoic-dhaka.edu/uploads/img/1554797308.png" alt="" />
           </div>
@@ -38,7 +38,7 @@ const Education = () => {
 
         {/* NDC */}
 
-        <div className="inst-single" data-aos="fade-left">
+        <div className="inst-single" data-aos="fade-up-left">
           <div className="inst-image">
             <img src="https://ndc.edu.bd/themes/notredame/assets/images/logo.png" alt="" />
           </div>
@@ -53,7 +53,7 @@ const Education = () => {
 
         {/* BUET SCHOOL  */}
 
-        <div className="inst-single" data-aos="fade-right">
+        <div className="inst-single" data-aos="fade-up-right">
           <div className="inst-image">
             <img src="http://www.eusc.edu.bd/media/logo/EUSC%20LOGO.jpg" alt="" />
           </div>

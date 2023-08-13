@@ -17,14 +17,21 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="projects container-fluid">
+    <div className="projects container">
+
+      {/* industrial projects */}
+
       <h2 className="text-center" style={{ textDecoration: 'underline #eeeeee solid 1px' }}>INDUSTRIAL PROJECTS</h2>
+
+
       {projects.map((project) => (
         <Project key={project.id} project={project}></Project>
       ))}
 
+      {/* academic projects */}
+
       <h2 className="text-center mt-5 pt-5" style={{ textDecoration: 'underline #eeeeee solid 1px' }}>ACADEMIC PROJECT</h2>
-      <div className="my-5 d-flex project">
+      <div className="my-5 flex project">
         <iframe
           className="project-img mb-5"
           height="320"

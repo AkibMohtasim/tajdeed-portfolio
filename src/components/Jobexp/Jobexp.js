@@ -1,102 +1,93 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Jobexp.css";
+import { Timeline, Modal, Button } from 'flowbite-react';
 import jobExpDoodle from '../../images/jobexpDoodle.svg';
-import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
+import { ArrowTopRightOnSquareIcon, BriefcaseIcon, EnvelopeOpenIcon } from '@heroicons/react/24/solid';
 import useTitle from "../../hooks/useTitle";
-
 
 const Jobexp = () => {
 
   useTitle('Job Experience');
 
+  const [companies, setCompanies] = useState([]);
+
+  const [openModal, setOpenModal] = useState();
+  const props = { openModal, setOpenModal };
+
+  useEffect(() => {
+    fetch('jobExp.json')
+      .then(res => res.json())
+      .then(data => setCompanies(data))
+  }, [])
+
   return (
-    <div className="company-section py-5 px-3 justify-content-center">
+    <div className="container px-6 md:px-4 mx-auto company-section">
 
       {/* svg icon  */}
-      <div className="art-section">
-        <img src={jobExpDoodle} alt="" srcset="" className="w-100%" />
+      <div>
+        <img src={jobExpDoodle} alt="" className="w-[70%] mx-auto" />
       </div>
 
+      <Timeline className="my-5">
 
-      {/* job exp section */}
+        {
+          companies.map(c => {
+            const { id, companyName, companyDetails, companyLinks, companyLogos, designation, jobPeriod, responsibilities } = c;
+            return (
+              <Timeline.Item key={id} className="ml-12">
+                <Timeline.Point icon={BriefcaseIcon} />
+                <Timeline.Content className="timeline-content">
+                  <Timeline.Time className="text-[#00adb5] text-lg">
+                    {jobPeriod}
+                  </Timeline.Time>
+                  <Timeline.Title className="company-title">
+                    {companyName}
+                  </Timeline.Title>
+                  <span>{companyDetails}</span>
+                  <p>{designation}</p>
+                  {/* <Timeline.Body>
+                    <ul>
+                      {
+                        responsibilities?.map(r => <li key={r.id}>
+                          {r?.mainResponsibility}
+                        </li>)
+                      }
+                    </ul>
+                  </Timeline.Body> */}
+                  <button onClick={() => props.setOpenModal('dismissible')} className="common-btn">
+                    See Details <EnvelopeOpenIcon className="w-[14px]" />
+                  </button>
+                </Timeline.Content>
+              </Timeline.Item>
+            )
+          })
+        }
+      </Timeline>
 
-      <section className="job-exp d-flex flex-wrap">
+      {/* modal */}
 
-        <div className="mb-5">
-          <h2 style={{ borderBottom: '1px solid #00adb5', paddingBottom: '5px', display: 'inline-block' }} >SMART DEVELOPMENT ENGINEERING (SDE) LTD.</h2>
-          <h5 className="mt-2 fw-light">Sister Concern of Environment and Infrastructure Management Solution (EIMS) Limited.</h5>
-        </div>
-        <div className="d-flex flex-wrap mb-5">
-          <img className="company-logo" src="https://sdelbd.com/images/sdel%20Logo.gif" alt="" />
-          <img className="company-logo" src="https://www.eimslbd.com/images/eimsLogo4.png" alt="" />
-
-        </div>
-
-
-        <div>
-          <h4 style={{ fontSize: '1.5em', borderBottom: '1px dashed #00adb5', fontWeight: '500', padding: '2px' }}>
-            Job Title: Junior Geotechnical Engineer</h4>
-          <p>{'(May 2022 - May 2023)'}</p>
-        </div>
-
-        <div>
-          <h3 style={{ color: '#00adb5', margin: '15px 0px' }}>Responsibilities</h3>
-          <h5 style={{ textDecoration: 'underline' }}>Geotechnical</h5>
-          <ul>
-            <li>
-              Supervised field test (SPT, SCPT, and CPT) and laboratory index tests,
-              Consolidation Test, Unconfined Compression Test, Direct Shear Test.
-            </li>
-            <li>
-              Performed analysis on the soil test and prepared geotechnical investigation report based on the laboratory test data for various projects -
-              <ol className="o-list">
-                <li>Geotechnical Investigation for UNICEF under GAVI HSS-3 Programme.</li>
-                <li>Geotechnical Investigation for Gandharbpur Water Treatment Snc. for SUEZ International and OTV-Veolia.</li>
-                <li>Subsoil Investigation for the construction of Proposed Production Facility for Singer Bangladesh Limited and more.</li>
-                <li>Consultancy services for Topographic survey, Morphology-Hydrology study,
-                  Geotechnical Investigation, Design and Quality Supervision of two jetties, Anwar Group of Industries.
-                </li>
-                <li>Subsoil investigation for palmal group of industries.</li>
-              </ol>
-            </li>
-            <li>
-              Quality control assurance, maintaining site management and expenses, monitoring investigation progress.
-            </li>
-          </ul>
-
-          <h4 style={{ textDecoration: 'underline' }}>Structural</h4>
-          <ul>
-            <li>RCC & steel Structural analysis & design.</li>
-            <li>RCC & steel Retrofit analysis & design.</li>
-            <li>Preparing Detailed Engineering Assessment (DEA) reports.</li>
-            <li>Preliminary assessment of various factory buildings.</li>
-          </ul>
-
-          <div className="cover-buttons">
-            <a
-              href="https://sdelbd.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              About SDE <ArrowTopRightOnSquareIcon style={{ height: '19px', fontWeight: 'bolder' }} />
-            </a>
-
-            {" "}
-            <a
-              href="https://www.eimslbd.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              About EIMS <ArrowTopRightOnSquareIcon style={{ height: '19px', fontWeight: 'bolder' }} />
-            </a>
+      <Modal dismissible show={props.openModal === 'dismissible'} onClose={() => props.setOpenModal(undefined)}>
+        <Modal.Header>Terms of Service</Modal.Header>
+        <Modal.Body>
+          <div className="space-y-6">
+            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+              With less than a month to go before the European Union enacts new consumer privacy laws for its citizens,
+              companies around the world are updating their terms of service agreements to comply.
+            </p>
+            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+              The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to
+              ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as
+              possible of high-risk data breaches that could personally affect them.
+            </p>
           </div>
-
-        </div>
-      </section>
-
-
-
-
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={() => props.setOpenModal(undefined)}>I accept</Button>
+          <Button color="gray" onClick={() => props.setOpenModal(undefined)}>
+            Decline
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 };

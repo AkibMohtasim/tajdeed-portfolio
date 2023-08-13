@@ -7,11 +7,11 @@ const Project = ({ project }) => {
   const { name, img, desrciption, responsibility, reports } = project;
 
   return (
-    <div className="project my-5 d-flex">
+    <div className="project my-5 flex">
 
       {/* project's image section */}
 
-      <div className="d-flex flex-column pt-2 project-img">
+      <div className="flex flex-col pt-2 project-img">
         {img.map((i) => (
           <img className="mb-5" src={i} alt=""></img>
         ))}

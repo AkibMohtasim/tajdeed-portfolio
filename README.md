@@ -4,7 +4,7 @@
 
 ## Frameworks and Libraries
 
-This is a Single Page Application. It is created with React and React Router. The styling was done primarily with Vanilla CSS and a little bit of BootStrap. The animations were created using Vanilla CSS and JavaScript.
+This is a Single Page Application. It is created with React and React Router. The styling was done primarily with Vanilla CSS and a little bit of Tailwind CSS. The animations were created using Vanilla CSS and JavaScript.
 
 ## Data
 
