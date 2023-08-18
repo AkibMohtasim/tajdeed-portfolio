@@ -3,11 +3,11 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="container px-4 about-container mb-60">
+    <div className="px-4 about-container mb-60">
       <h2 style={{ marginBottom: '25px', fontWeight: '700' }}>About <span style={{ color: '#00adb5' }}>Me</span></h2>
 
       <div className="about-me-wrapper">
-        <section className="about-me" data-aos="fade-right">
+        <section className="about-me" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="300">
           {/* about me section  */}
           <p>
             As a recent Civil and Environmental Engineering graduate, I have
@@ -34,7 +34,7 @@ const About = () => {
 
         {/* image section  */}
 
-        <div className="image-section" data-aos="fade-left">
+        <div className="image-section" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="300">
           <div>
             <iframe src="https://drive.google.com/file/d/1JkthGAe_FpznNN2Eg0dKxi-tdXmYSL7L/preview" title="graduation picture" allow="autoplay"></iframe>
           </div>

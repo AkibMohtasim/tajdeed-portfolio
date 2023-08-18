@@ -1,7 +1,6 @@
 .software-container {
   color: #eeeeee;
   margin: 0 3% 10% 0;
-  width: 40%;
 }
 
 .software-container>h1 {
@@ -12,6 +11,10 @@
 
 .sw-image {
   height: 3.5rem;
+}
+
+.sw-image>img {
+  height: 100%;
 }
 
 

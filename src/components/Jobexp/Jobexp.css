@@ -5,29 +5,70 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.company-logo-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
 .company-logo {
-  height: 70px;
-  margin-right: 80px;
+  height: 40px;
+}
+
+.company-url {
+  border-radius: 4px;
+  padding: 10px;
+  transition: 0.3s;
+  border: 1px solid #00acb570;
+}
+
+.company-url:hover {
+  box-shadow: 1px 1px 3px 2px #00adb5;
 }
 
 .company-title {
-  border-bottom: 1px solid #00adb5;
+  border-bottom: 1px dotted #00adb5;
   font-size: 24px;
   color: #fffc;
   display: table;
+  font-weight: 500;
 }
 
 .timeline-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 16px;
 }
 
 ul>li {
   text-align: justify;
   list-style: circle;
 }
+
+
+.company-section .timeline-component span.ring-8 {
+  box-shadow: none;
+  transform: scale(1.5);
+}
+
+.job-exp-modal {
+  color: white;
+}
+
+.job-exp-modal .bg-white {
+  background-color: #222831;
+}
+
+.square-btn {
+  border-radius: 10px !important;
+  font-weight: 400;
+  padding: 8px 12px;
+}
+
+
 
 
 @media only screen and (max-width: 576px) {

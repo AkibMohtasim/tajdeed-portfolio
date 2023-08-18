@@ -10,6 +10,7 @@ import Activities from "./components/Activities/Activities";
 import Footer from "./components/Footer/Footer";
 
 function App() {
+
   const router = createBrowserRouter([
     {
       path: "/",

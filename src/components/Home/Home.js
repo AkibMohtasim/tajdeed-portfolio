@@ -5,7 +5,7 @@ import Education from "./Education/Education";
 
 const Home = () => {
   return (
-    <div className="container px-4 mx-auto">
+    <div className="px-4">
       <Cover></Cover>
       <About></About>
       <Education></Education>

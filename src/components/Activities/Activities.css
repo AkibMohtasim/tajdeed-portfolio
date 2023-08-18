@@ -1,5 +1,5 @@
-@media only screen and (max-width: 992px) {
-  .activites-section {
-    padding-bottom: 20%;
-  }
+.activites-section {
+  padding-bottom: 20%;
+  display: grid;
+  grid-template-columns: 1fr;
 }

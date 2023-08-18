@@ -1,9 +1,23 @@
 .project {
   color: #eeeeee;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: flex-start;
+  margin: 40px auto;
+  border-bottom: 2px dashed grey;
+  padding-bottom: 20px;
 }
 
-.project-img {
-  width: 30%;
+.project-img-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  gap: 10px;
+}
+
+.project-img-wrapper>img {
+  height: 100%;
 }
 
 .description {
@@ -23,6 +37,7 @@
 
 @media only screen and (max-width: 992px) {
   .project {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }

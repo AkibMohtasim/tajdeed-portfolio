@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Software from "../Software/Software";
 import "./Softwares.css";
-import { ArrowLongUpIcon } from '@heroicons/react/24/solid';
 import useTitle from "../../hooks/useTitle";
-import useScrollToTop from "../../hooks/useScrollToTop";
+import LoadingBtn from "../../commonComponents/LoadingBtn";
 
 const Softwares = () => {
   const [softwares, setSoftwares] = useState([]);
@@ -16,13 +15,15 @@ const Softwares = () => {
 
   useTitle('Software Skills');
 
+  if (softwares.length < 1) {
+    return <LoadingBtn />
+  }
+
   return (
-    <div className="py-5 position-relative flex justify-center flex-wrap">
+    <div className="my-5 position-relative softwares-wrapper">
       {softwares.map((software) => (
         <Software key={software.id} software={software}></Software>
       ))}
-
-      <button className="scroll-button" onClick={useScrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
     </div>
   );
 };

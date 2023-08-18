@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import './Activities.css';
-import { ArrowLongUpIcon } from '@heroicons/react/24/solid';
 import useTitle from '../../hooks/useTitle';
-import useScrollToTop from '../../hooks/useScrollToTop';
+import LoadingBtn from '../../commonComponents/LoadingBtn';
 
 const Activities = () => {
 
@@ -18,16 +17,18 @@ const Activities = () => {
 
   useTitle('Activities');
 
+  if (activities.length < 1) {
+    return <LoadingBtn />
+  }
+
   return (
-    <div className='activites-section flex flex-col align-items-center position-relative'>
+    <div className='activites-section'>
       {
         activities.map(activity => <Activity
           key={activity.id}
           activity={activity}
         ></Activity>)
       }
-
-      <button className="scroll-button" onClick={useScrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
     </div>
   );
 };

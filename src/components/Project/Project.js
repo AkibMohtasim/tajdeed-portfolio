@@ -7,13 +7,13 @@ const Project = ({ project }) => {
   const { name, img, desrciption, responsibility, reports } = project;
 
   return (
-    <div className="project my-5 flex">
+    <div className="project" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="350">
 
       {/* project's image section */}
 
-      <div className="flex flex-col pt-2 project-img">
+      <div className="project-img-wrapper">
         {img.map((i) => (
-          <img className="mb-5" src={i} alt=""></img>
+          <img src={i} alt=""></img>
         ))}
       </div>
 

@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Project from "../Project/Project";
 import "./Projects.css";
-import { ArrowLongUpIcon } from '@heroicons/react/24/solid';
 import useTitle from "../../hooks/useTitle";
-import useScrollToTop from "../../hooks/useScrollToTop";
+import LoadingBtn from "../../commonComponents/LoadingBtn";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -16,8 +15,14 @@ const Projects = () => {
       .then((data) => setProjects(data));
   }, []);
 
+  if (projects.length < 1) {
+    return (
+      <LoadingBtn />
+    )
+  }
+
   return (
-    <div className="projects container">
+    <div className="projects my-5">
 
       {/* industrial projects */}
 
@@ -53,8 +58,6 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-
-      <button className="scroll-button" onClick={useScrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
     </div>
   );
 };

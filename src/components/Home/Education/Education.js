@@ -1,7 +1,6 @@
 import React from "react";
 import "./Education.css";
-import { AcademicCapIcon, ArrowLongUpIcon } from '@heroicons/react/24/solid';
-import useScrollToTop from "../../../hooks/useScrollToTop";
+import { AcademicCapIcon } from '@heroicons/react/24/solid';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // ..
@@ -11,17 +10,17 @@ AOS.init();
 const Education = () => {
 
   return (
-    <div className="container px-4 flex flex-col academics mb-60">
+    <div className="px-4 flex flex-col academics mb-60">
 
       <h2 className="flex items-center title">Education History <AcademicCapIcon style={{ height: '4rem', color: '#00adb5', marginLeft: '0.3em' }} /></h2>
 
 
       {/*-------------- Education history starts -------------------  */}
 
-      <section className="institutions w-full">
+      <section className="institutions">
 
         {/* IUT  */}
-        <div className="inst-single" data-aos="fade-up-right">
+        <div className="inst-single" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="350">
           <div className="inst-image">
             <img src="https://www.iutoic-dhaka.edu/uploads/img/1554797308.png" alt="" />
           </div>
@@ -31,14 +30,14 @@ const Education = () => {
             <h5>BSc in Civil and Environmental Engineering</h5>
             <p>2018-2022</p>
             <p>CGPA: 3.16/4.00</p>
-            <iframe className="iut-transcript" title="iut transcript" src="https://drive.google.com/file/d/184brorEsX3fF1apGljjAk4lSvQHXAJrj/preview" width="300" height="225"></iframe>
+            {/* <iframe className="iut-transcript" title="iut transcript" src="https://drive.google.com/file/d/184brorEsX3fF1apGljjAk4lSvQHXAJrj/preview" width="300" height="225"></iframe> */}
 
           </div>
         </div>
 
         {/* NDC */}
 
-        <div className="inst-single" data-aos="fade-up-left">
+        <div className="inst-single" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="350">
           <div className="inst-image">
             <img src="https://ndc.edu.bd/themes/notredame/assets/images/logo.png" alt="" />
           </div>
@@ -53,7 +52,7 @@ const Education = () => {
 
         {/* BUET SCHOOL  */}
 
-        <div className="inst-single" data-aos="fade-up-right">
+        <div className="inst-single" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="350">
           <div className="inst-image">
             <img src="http://www.eusc.edu.bd/media/logo/EUSC%20LOGO.jpg" alt="" />
           </div>
@@ -66,8 +65,6 @@ const Education = () => {
           </div>
         </div>
       </section>
-
-      <button className="scroll-button" onClick={useScrollToTop}><ArrowLongUpIcon style={{ color: '#eeeeeebb', width: '60%' }} /></button>
 
     </div>
   );
