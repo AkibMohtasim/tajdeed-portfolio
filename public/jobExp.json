@@ -7,13 +7,21 @@
     "jobPeriod": "August 2023 - Present",
     "companyLinks": [
       {
+        "companyLogo": "https://surbanajurong.com/wp-content/themes/surbana-wp/images/SJ_SJ_Tagline_FC_RGB@2x.png",
+        "companyLink": "https://surbanajurong.com/"
+      },
+      {
         "companyLogo": "https://www.smec.com/wp-content/themes/smec/img/logo.svg",
         "companyLink": "https://www.smec.com/bd/"
+      },
+      {
+        "companyLogo": "https://www.acebd.com/wp-content/uploads/2022/08/ACE-Bangladesh_PNG.png",
+        "companyLink": "https://www.acebd.com/"
       }
     ],
     "responsibilities": [
       "Oversee a wide range of surveys including topographic, geotechnical, transportation, environmental, and social/resettlement. Lead and manage a skilled team to ensure successful execution.",
-      "Support Comprehensive Survey Operations: Aid senior engineers and surveyors in preliminary site visits, data collection, and survey control setup. Maintain meticulous survey records and perform quality checks to ensure accurate and error-free data.",
+      "Aid senior engineers and surveyors in preliminary site visits, data collection, and survey control setup. Maintain meticulous survey records and perform quality checks to ensure accurate and error-free data.",
       "Effective Project Collaboration: Collaborate closely with project teams to ensure surveys align with project needs and timelines. Provide regular updates on survey progress and contribute to maintaining high-quality survey data."
     ]
   },

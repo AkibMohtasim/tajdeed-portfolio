@@ -19,7 +19,7 @@ const Cover = () => {
   useTitle('Omor Seebtaien Tajdeed');
 
   return (
-    <div className="px-4 cover-container mb-60">
+    <div className="cover-container mb-60">
 
       {/* left section */}
 
